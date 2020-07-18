@@ -176,7 +176,7 @@ class _ExcelPageState extends State<ExcelPage> {
             },
           ),
           Container(
-            width: 140.0,
+            width: 180.0,
             child: TextField(
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -194,14 +194,14 @@ class _ExcelPageState extends State<ExcelPage> {
             ),
           ),
           Container(
-            width: 140.0,
+            width: 180.0,
             child: TextField(
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 18,
               ),
               decoration: InputDecoration(
-                labelText: "前缀",
+                labelText: "前缀(可不填)",
                 hintText: "例子：Number-",
               ),
               onChanged: (value) {
@@ -212,7 +212,7 @@ class _ExcelPageState extends State<ExcelPage> {
             ),
           ),
           Container(
-            width: 140.0,
+            width: 180.0,
             child: TextField(
               textAlign: TextAlign.center,
               style: TextStyle(
