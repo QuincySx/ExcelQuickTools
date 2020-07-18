@@ -1,6 +1,11 @@
 # ExcelQuickTools
 
 A new Flutter project.
+The Flutter App in Windows.
+
+## 处理 Excel 的工具。
+功能：
+* 批量生成编号设置到 sheet 中
 
 ## Getting Started
 
